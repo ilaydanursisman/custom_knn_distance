@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "custom_knn_distance"
+version = "0.1.0"
+description = "A Python library implementing a custom distance metric for KNN classification based on local density."
+authors = [
+    { name="İlayda Nur Şişman", email="ilaydasisman65@gmail.com" }
+]
+license = {text = "All rights reserved"}
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "numpy",
+    "pandas",
+    "scikit-learn"
+]
+
+[project.urls]
+Homepage = "https://github.com/ilaydanursisman/custom_knn_distance"

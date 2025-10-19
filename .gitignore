@@ -1,0 +1,40 @@
+# Python derleme çıktıları
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+
+# Build / Dağıtım artefaktları
+dist/
+build/
+*.tar.gz
+*.whl
+
+# Sanal ortamlar
+venv/
+env/
+.venv/
+.env
+*.env
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# IDE / Editör dosyaları
+.vscode/
+.idea/
+
+# Test cache / coverage dosyaları
+htmlcov/
+.coverage
+.tox/
+.pytest_cache/
+.cache/
+.mypy_cache/
+
+# Geçici ve kullanıcıya özel dosyalar
+*.log
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db

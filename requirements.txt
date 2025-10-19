@@ -1,0 +1,14 @@
+from pathlib import Path
+
+required_packages = [
+    "numpy",
+    "pandas",
+    "scikit-learn"
+]
+
+requirements_content = "\n".join(required_packages)
+
+file_path = Path("/mnt/data/requirements.txt")
+file_path.write_text(requirements_content)
+
+file_path.name
